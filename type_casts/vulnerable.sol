@@ -8,7 +8,7 @@ contract Alice {
 }
 
 contract Bob {
-    function ping(uint) public returns (uint) {
+    function ping() public returns (uint) {
         console.log("Inside Bob's ping()!");
     }
 }
